@@ -156,17 +156,7 @@ export default function Home() {
         {/* Content */}
         <div className="relative pt-30 lg:pt-20 z-10 flex flex-col items-center justify-center h-full text-white text-center px-4 lg:px-40">
           {/* Title */}
-          <motion.div
-              className="absolute bottom-4 right-4 bg-white rounded-2xl shadow-lg p-3 sm:p-4 flex items-center gap-2 sm:gap-3 max-w-[80%] sm:max-w-none"
-              initial={{ opacity: 0, x: 40 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.5, duration: 0.6 }}
-            >
-              <MapPin className="text-blue-500 shrink-0" size={20} />
-              <p className="font-semibold text-gray-400 text-xs sm:text-sm">
-                Mile 50, Abakaliki
-              </p>
-            </motion.div>
+         
           <motion.h1
             className="text-3xl md:text-6xl font-extrabold lg:font-bold mb-4 bg-gradient-to-r from-white to-amber-600 text-transparent bg-clip-text"
             initial={{ y: 50, opacity: 0 }}
