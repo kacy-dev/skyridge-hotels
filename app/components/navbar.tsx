@@ -68,12 +68,12 @@ export default function Navbar() {
             <div className="flex space-x-6 font-medium">
               <Link href="/" className="text-black">Home</Link>
               <Link href="/rooms" className="text-black">OurRooms</Link>
-              <Link href="#about" className="text-black">Room Calendar</Link>
+              <Link href="/about" className="text-black">Room Calendar</Link>
               <Link href="/contact" className="text-black">Contact</Link>
             </div>
           )}
                      <button className="flex justify-center items-center text-sm hidden lg:flex w-full lg:max-w-max text-white/100 px-4 py-2 outline-1 outline-offset-2 outline-amber-600 rounded-xl bg-amber-600 hover:bg-transparent transition-all duration-300">
-                      <a href="">Book Now</a>
+                      <Link href="">Book Now</Link>
                      </button>
         </div>
 
