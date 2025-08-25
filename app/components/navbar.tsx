@@ -87,8 +87,8 @@ export default function Navbar() {
               className="overflow-hidden "
             >
               <div className="flex flex-col px-6 py-4 space-y-3">
-                <a href="#home" className="text-black">Home</a>
-                <a href="#rooms" className="text-black">Rooms</a>
+                <a href="/" className="text-black">Home</a>
+                <a href="/rooms" className="text-black">Our Rooms</a>
                 <a href="#about" className="text-black">About</a>
                 <a href="#contact" className="text-black">Contact</a>
               </div>
