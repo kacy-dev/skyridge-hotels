@@ -66,10 +66,10 @@ export default function Navbar() {
             </button>
           ) : (
             <div className="flex space-x-6 font-medium">
-              <a href="/" className="text-black">Home</a>
-              <a href="/rooms" className="text-black">OurRooms</a>
-              <a href="#about" className="text-black">Room Calendar</a>
-              <a href="/contact" className="text-black">Contact</a>
+              <Link href="/" className="text-black">Home</Link>
+              <Link href="/rooms" className="text-black">OurRooms</Link>
+              <Link href="#about" className="text-black">Room Calendar</Link>
+              <Link href="/contact" className="text-black">Contact</Link>
             </div>
           )}
                      <button className="flex justify-center items-center text-sm hidden lg:flex w-full lg:max-w-max text-white/100 px-4 py-2 outline-1 outline-offset-2 outline-amber-600 rounded-xl bg-amber-600 hover:bg-transparent transition-all duration-300">
@@ -87,10 +87,10 @@ export default function Navbar() {
               className="overflow-hidden "
             >
               <div className="flex flex-col px-6 py-4 space-y-3">
-                <a href="/" className="text-black">Home</a>
-                <a href="/rooms" className="text-black">Our Rooms</a>
-                <a href="#about" className="text-black">About</a>
-                <a href="#contact" className="text-black">Contact</a>
+                <Link href="/" className="text-black">Home</Link>
+                <Link href="/rooms" className="text-black">Our Rooms</Link>
+                <Link href="#about" className="text-black">About</Link>
+                <Link href="#contact" className="text-black">Contact</Link>
               </div>
             </motion.div>
           )}
