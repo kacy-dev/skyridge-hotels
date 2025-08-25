@@ -173,53 +173,12 @@ export default function Home() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-
-            
+  
             Skyridge Hotel blends elegance,
             modern amenities, and top-tier hospitality — your perfect
             destination for relaxation, business, and unforgettable memories.
           </motion.p>
 
-          {/* CTA Buttons */}
-          {/* <motion.div
-            className="flex items-center justify-center gap-4"
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.9 }}
-          >
-            <Button
-              variant="contained"
-              endIcon={<ArrowRight />}
-              sx={{
-                bgcolor: "#eab308",
-                color: "#000",
-                fontWeight: "bold",
-                borderRadius: "999px",
-                px: 3,
-                py: 1.5,
-                textTransform: "none",
-                "&:hover": { bgcolor: "#facc15" },
-              }}
-            >
-              Book Your Stay
-            </Button>
-
-            <Button
-              variant="outlined"
-              sx={{
-                borderColor: "#eab308",
-                color: "#eab308",
-                fontWeight: "bold",
-                borderRadius: "999px",
-                px: 3,
-                py: 1.5,
-                textTransform: "none",
-                "&:hover": { borderColor: "#facc15", color: "#facc15" },
-              }}
-            >
-              Explore Rooms
-            </Button>
-          </motion.div> */}
 
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
