@@ -68,7 +68,7 @@ export default function Navbar() {
             <div className="flex space-x-6 font-medium">
               <Link href="/" className="text-black">Home</Link>
               <Link href="/rooms" className="text-black">OurRooms</Link>
-              <Link href="/about" className="text-black">Room Calendar</Link>
+              <Link href="#about" className="text-black">Room Calendar</Link>
               <Link href="/contact" className="text-black">Contact</Link>
             </div>
           )}
